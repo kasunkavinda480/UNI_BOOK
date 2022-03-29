@@ -103,6 +103,8 @@
                                                 <input type="text" placeholder="Search.." name="search" id="SearchTxt">
                                                 <button id="searchBtn" name="searchBtn" onclick="sendsearchrequst()"><i class="fa fa-search"></i></button>
                                             </div>
+                                            <br><br>
+                                            <div id="displayresponese"></div>
                                             <div class="footer">
                                                 <div class="footer-left">
 
