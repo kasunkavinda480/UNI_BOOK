@@ -101,7 +101,7 @@
                                             <div class="search-right">
                                                 
                                                 <input type="text" placeholder="Search.." name="search" id="SearchTxt">
-                                                <button id="searchBtn" name="searchBtn" onclick="testObjData()"><i class="fa fa-search"></i></button>
+                                                <button id="searchBtn" name="searchBtn" onclick="sendsearchrequst()"><i class="fa fa-search"></i></button>
                                             </div>
                                             <div class="footer">
                                                 <div class="footer-left">
