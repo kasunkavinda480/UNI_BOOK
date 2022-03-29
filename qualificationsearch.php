@@ -92,18 +92,16 @@
                                     <div class="col-md-6">
                                         <label for=""></label>
                                         <div class="form-control mb-3">
-                                            <select name="lang[]">
-                                                <option> choose option</option>
-                                                <option value="O/L"> O/L</option>
-                                                <option value="A/L"> A/L</option>
+                                            <select name="ResultTypeTxt" id="ResultTypeTxt">
+                                                <option value=""> choose option</option>
+                                                <option value="o"> O/L</option>
+                                                <option value="a"> A/L</option>
                                             </select>
-                                            <input type="submit" value="Submit" name="submit">
-
+                                            
                                             <div class="search-right">
-                                                <form class="search" method="POST" action="search.php" style=" margin:auto">
-                                                    <input type="text" placeholder="Search.." name="search" id="SearchTxt">
-                                                    <button type="button" id="searchBtn" name="searchBtn" onclick="sendsearchrequst()"><i class="fa fa-search"></i></button>
-                                                </form>
+                                                
+                                                <input type="text" placeholder="Search.." name="search" id="SearchTxt">
+                                                <button id="searchBtn" name="searchBtn" onclick="testObjData()"><i class="fa fa-search"></i></button>
                                             </div>
                                             <div class="footer">
                                                 <div class="footer-left">
