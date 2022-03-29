@@ -1,0 +1,22 @@
+.globalImg {
+  margin-top: 80px;
+  width: 100px;
+}
+
+.container.globalContainer {
+  box-shadow: 8px 13px 25px #D9D9D982;
+  height: 600px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: dashed;
+  background: #e8e7e7;
+}
+
+.btn.btn-primary.backButton {
+  border-radius: 20px;
+  border-width: 0px;
+  margin-top: 20px;
+  background: linear-gradient(149deg, rgba(161,104,255,0.75) 0%, rgba(42,145,255,0.75));
+}
+

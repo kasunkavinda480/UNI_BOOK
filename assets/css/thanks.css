@@ -1,0 +1,35 @@
+.container.thanksContainer {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.congratulationsHeading {
+  text-align: center;
+  font-family: 'Berkshire Swash', serif;
+  font-size: 69px;
+  color: rgb(255,138,0);
+}
+
+.thanksPara {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  color: rgb(67,67,67);
+}
+
+.thanksSpan1 {
+  color: var(--success);
+  font-weight: bold;
+}
+
+.thanksImage {
+  width: 640px;
+}
+
+.btn.btn-primary.thanksButton {
+  background: linear-gradient(149deg, rgba(161,104,255,0.75) 0%, rgba(42,145,255,0.75));
+  border-width: 0px;
+}
+

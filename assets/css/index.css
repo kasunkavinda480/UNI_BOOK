@@ -1,0 +1,41 @@
+.indexImage {
+  width: 100%;
+  height: 100vh;
+  max-width: 1920px;
+  min-width: 320px;
+  position: absolute;
+}
+
+.container-fluid.indexContainer {
+  padding: 0px;
+}
+
+.indexHeading {
+  top: 200px;
+  left: 700px;
+  position: relative;
+  font-family: 'Berkshire Swash', serif;
+  color: rgb(255,138,0);
+  font-size: 85px;
+  width: 500px;
+  text-shadow: 2px 3px 4px var(--red);
+}
+
+.btn.btn-primary.indexButton {
+  position: absolute;
+  top: 320px;
+  left: 900px;
+  font-weight: bold;
+  background: linear-gradient(149deg, rgba(161,104,255,0.75) 0%, rgba(42,145,255,0.75));
+  border-radius: 20px;
+  border-width: 0px;
+}
+
+.indexPara {
+  position: absolute;
+  top: 190px;
+  left: 900px;
+  font-family: 'Akaya Telivigala', serif;
+  color: var(--success);
+}
+

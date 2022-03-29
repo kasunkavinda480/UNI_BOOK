@@ -1,0 +1,91 @@
+.myIqGraphContainer {
+  margin-top: 150px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fbfbfb;
+}
+
+.myGraphColumn {
+  background: #d2d2d2;
+  border-radius: 10px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-style: dashed;
+  border-color: rgb(255,255,255);
+}
+
+.myGraphCanvas {
+}
+
+.urIQpara {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(63,73,157);
+}
+
+.iqCountPara {
+  text-align: center;
+  font-size: 80px;
+  line-height: 55px;
+  color: rgb(255,255,255);
+}
+
+.iqCountDiv {
+  background: linear-gradient(149deg, rgba(161,104,255,0.75) 0%, rgba(42,145,255,0.75));
+  border-radius: 10px;
+  padding: 40px;
+  width: 100%;
+  box-shadow: 8px 13px 25px #D9D9D982;
+}
+
+#avereageIqDiv {
+  margin-top: 30px;
+  border: 2px dashed rgb(5,0,255) ;
+  width: 100%;
+  background: rgba(231,233,254,0.52);
+  border-radius: 10px;
+}
+
+.iqDisplayDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5px;
+  color: #434343;
+}
+
+.iqNumberPara {
+  margin-bottom: 10px;
+  text-align: right;
+  width: 90%;
+}
+
+.iqAvgPara {
+  padding-left: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.iqAvgHeading {
+  font-family: Poppins, sans-serif;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.iqDisplayDiv.iqActive {
+  border-radius: 20px;
+  width: 60%;
+  color: rgb(255,255,255);
+  box-shadow: 8px 13px 25px #D9D9D982;
+  background: linear-gradient(149deg, rgba(161,104,255,0.75) 0%, rgba(42,145,255,0.75));
+}
+
+.myIqBody {
+  background: url("../../assets/img/v82ZDJP8pT-compress.gif") center / cover no-repeat;
+}
+
